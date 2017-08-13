@@ -20,5 +20,8 @@ include device/yu/tomato/board/*.mk
 # Assertions
 TARGET_BOARD_INFO_FILE := device/yu/tomato/board-info.txt
 
+# Compile with SDClang
+TARGET_USE_SDCLANG := true
+
 # Inherit from proprietary files
 include vendor/yu/tomato/BoardConfigVendor.mk
